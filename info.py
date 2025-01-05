@@ -84,7 +84,7 @@ PAYMENT_TEXT = environ.get('PAYMENT_TEXT', '<b>- ᴀᴠᴀɪʟᴀʙʟᴇ ᴘʟ�
 # Links
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+nLQ95TjVtdpjYjQ9')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/TNMCartoons')
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/+nLQ95TjVtdpjYjQ9) # Support Chat Link Without https:// or @
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/HatakeKakashi41') # Support Chat Link Without https:// or @
 OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/HatakeKakashi41')
 
 # True Or False
