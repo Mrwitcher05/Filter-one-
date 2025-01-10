@@ -11,19 +11,19 @@ id_pattern = re.compile(r'^.\d+$')
 
 # Bot information
 SESSION = environ.get('SESSION', 'TNMCBot')
-API_ID = int(environ.get('API_ID', '22004271'))
-API_HASH = environ.get('API_HASH', '72cc5fed3ea1f03b836a2f6567450afe')
+API_ID = int(environ.get('API_ID', '22283951'))
+API_HASH = environ.get('API_HASH', 'f967533a699e181d6c7e58ce47a134ab')
 BOT_TOKEN = environ.get('BOT_TOKEN', "")
 
 
 # This Pictures Is For Start Message Picture, You Can Add Multiple By Giving One Space Between Each.
-PICS = (environ.get('PICS', 'https://envs.sh/9uJ.jpg https://graph.org/file/dc9d2d6b860e1a5a52058-b03a6e246b04d4cdfa.jpg https://graph.org/file/4f62ccf07d4fbdb486e06-4cafb490d9e175d2a7.jpg')).split()
+PICS = (environ.get('PICS', 'https://envs.sh/9uJ.jpg https://graph.org/file/dc9d2d6b860e1a5a52058-b03a6e246b04d4cdfa.jpg https://graph.org/file/2b544238d97950380614c-eb6fa2f2f2616bda67.jpg https://graph.org/file/4f62ccf07d4fbdb486e06-4cafb490d9e175d2a7.jpg')).split()
 
 
 # Admins & Users
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6398757880 7175715379').split()] # For Multiple Id Use One Space Between Each.
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '6558711318').split()]  # For Multiple Id Use One Space Between Each.
-AUTH_USERS = (auth_users + ADMINS) if auth_users else [6398757880]
+AUTH_USERS = (auth_users + ADMINS) if auth_users else [7175715379]
 
 # This Channel Is For When User Start Your Bot Then Bot Send That User Name And Id In This Log Channel, Same For Group Also.
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002315834577'))
