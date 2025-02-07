@@ -112,7 +112,7 @@ USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
 
 # Token Verification Info :
-VERIFY = bool(environ.get('VERIFY', False))
+VERIFY = bool(environ.get('VERIFY', True))
 VERIFY_SHORTLINK_URL = environ.get('modijiurl.com', '')
 VERIFY_SHORTLINK_API = environ.get('7093f846c0cb92afe2a6b65b7581f835f7a39b21', '')
 VERIFY_TUTORIAL = environ.get('', 'https://t.me/Dreams_Office/3')
