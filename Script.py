@@ -5,7 +5,11 @@
 class script(object):
     START_TXT = """<b><blockquote>ʜᴇʟʟᴏ {}, ᴍʏ ɴᴀᴍᴇ <a href=https://t.me/cinemacityhub{}>{}</a></blockquote>
     
-ɪ ᴀᴍ【 ʟᴀᴛᴇꜱᴛ ᴀᴅᴠᴀɴᴄᴇᴅ 】ᴀɴᴅ ᴘᴏᴡᴇʀꜰᴜʟ ᴀᴜᴛᴏ ꜰɪʟᴛᴇʀ ʙᴏᴛ + └ᴀᴡᴇꜱᴏᴍᴇ ꜰɪʟᴛᴇʀ┘ + ├ꜰɪʟᴇ ꜱᴛᴏʀᴇ ʙᴏᴛ┤ + ☞ᴍᴀɴᴜᴀʟ ꜰɪᴛᴇʀ☜ ᴀɴᴅ ᢵᴄᴜꜱᴛᴏᴍɪᴢᴇᴅ ꜱʜᴏʀᴛɴᴇʀ ꜱᴜᴘᴘᴏʀᴛᢴ ᢾᴀɴᴅ ʙᴇꜱᴛ ᴜɪ ᴘᴇʀꜰᴏʀᴍᴀɴᴄᴇᢿ</b>"""
+Movie Request bot 😃 /
+🍀  MOVIE IN TAMIL ....🔍🔎
+✅ Web series in Tamil ✨ 
+☯️❄️Search Movie Name Or webseries 👍
+ᢿ</b>"""
 
     CLONE_START_TXT = """<b><blockquote>ʜᴇʟʟᴏ {}, ᴍʏ ɴᴀᴍᴇ <a href=https://t.me/cinemacityhub_0{}>{}</a></blockquote>
     
